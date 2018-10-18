@@ -1,0 +1,34 @@
+{
+  "name": "ui-mcj-admin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "start": "NODE_ENV=production node server.js",
+    "build": "next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emimartin26/ui-mcj-admin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^7.0.2",
+    "next-routes": "^1.4.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "bugs": {
+    "url": "https://github.com/emimartin26/ui-mcj-admin/issues"
+  },
+  "homepage": "https://github.com/emimartin26/ui-mcj-admin#readme",
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-react": "^7.11.1"
+  }
+}
